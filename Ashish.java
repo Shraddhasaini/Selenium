@@ -23,7 +23,7 @@ public void Test(){
 		element2.click();
 		
 		WebElement element5 = driver.findElement(By.xpath("//*[@id=\"main\"]/footer/div[1]/div[2]/div/div[2]"));
-		element5.sendKeys("I LOVE YOU -sent automatically using selenium script");
+		element5.sendKeys("sent automatically using selenium script");
 		element5.sendKeys(Keys.ENTER);
 		
 
